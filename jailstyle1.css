@@ -1,0 +1,741 @@
+html{
+	Background:#000;
+	color: #FFF;
+	font-family: monospace;
+  font-weight: italic; 
+  height: 100%;
+}
+#headerImg{
+margin-left: 20vw;
+height: 15vh;
+width: 50vw;
+Padding-bottom: 5vh;
+
+
+
+
+}
+body{
+  
+}
+/*all this shit enables scrolling*/
+.allBody{
+  height: 100vh;
+    display: block;
+            border: 0px solid red;
+            padding: 5px;
+            margin-top: 5px;
+            width: 100%;
+            height: 100px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+ display: block;
+            border: 0px solid red;
+            padding: 5px;
+            margin-top: 5px;
+            width: 100%;
+            height: 100px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+          }
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: ;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #fuschia;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #FFF;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D1f5cc;
+}
+
+a:link {
+  color: #FFF;
+}
+
+
+a:visited {
+  color: #C9d2c9;
+}
+
+
+a:hover {
+  color:#D1f5cc; 
+}
+
+
+a:active {
+  color: #589a58;
+}
+/*border for page content*/
+/*@-webkit-keyframes blink {
+        0%   { border-color:#FFF; }
+        80%  { border-color:#D1f5cc;}
+        100% { border-color:#FFF; }
+}
+@-moz-keyframes blink {
+        0%   { border-color:#FFF; }
+        80%  { border-color:#D1f5cc;}
+        100% { border-color:#Fff; }
+}
+@-ms-keyframes blink {
+        0%   { border-color:#FFF; }
+        80%  { border-color:#D1f5cc;}
+        100% { border-color:#FFF; }
+}*/
+.outer-box-frame{
+    
+  border-left: 100px solid ;
+    border-top: 100px solid linear-gradient(180deg, #FFF 0%,  #000 40%, #000 60%);
+     border-top: 100px solid linear-gradient(180deg, #FFF 0%,  #000 40%, #000 60%);
+  border-left: 100px solid ;
+  border-right: 100px solid ;
+   box-shadow: 0 0 40px #FFF;
+  border-radius: 10em;
+  z-index: 3;
+  -webkit-animation: blink 5s infinite;
+     -moz-animation:    blink 5s infinite;
+     -ms-animation:     blink 5s infinite;
+     height: 100vh
+       display: block;
+            padding: 5px;
+            margin-top: 5px;
+            width: 100%;
+            height: 80vh;
+            overflow-y: scroll;
+}
+
+h1{	padding-left: 50vw;
+	text-align: right
+	left: 50%;
+	padding-top: 10vh;
+	font-size: 32pt;
+  
+}
+h2{
+	margin-top: -10vh;
+	text-align: center;
+  font-size: 32pt;
+
+}
+h3{
+  text-align: center;
+  margin-left: 35vw;
+  font-size:  24pt;
+  padding-top: 10vh;
+   color: #FFF;
+    display: inline-block;
+  padding: 16px 20px;
+  border-radius: 50em;
+  position: relative;
+  z-index: 1;
+  will-change: transform, filter;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 1.3s ease-out;
+  transition: all 1.3s ease-out;
+
+  background: #c0ffa7;
+  background: linear-gradient(180deg, #FFF 0%,  #000 40%, #000 60%);
+     box-shadow: 0 0 9px #FFF;
+
+
+}
+p{padding-left: 50vw;
+	text-align: right
+	left: 50%;
+	font-size: 8pt;
+  width: 80%;
+  color: #c0c2c0;
+}
+/*code for the games case*/
+.gameCase{
+  margin-top: 15vh;
+  text-decoration: none;
+  font-weight:;
+  font-size: 17px;
+  
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 23.33%;
+  padding: 50px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.game{
+  height: 20vh;
+   box-shadow: 0 0 9px #FFF;
+  border-radius: 50em;
+}
+
+h4{
+  text-align: center;
+
+}
+
+
+
+
+
+
+}
+#footnote1{
+  font-size: 6pt;
+}
+/*seriously, why is this <p> separate? investigate.*/
+#whyAreSeparate{
+  font-size: 8pt;
+}
+#gameCase{
+  padding-top: 20%;
+}
+footer{
+	padding-top: 10vh;
+	text-align: center;
+	font-size: 8pt;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000;
+  overflow: hidden;
+
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav{
+	position: absolute;
+  bottom: 82%;
+	left: 10%;
+  border-bottom: 10px solid linear-gradient(180deg, #FFF 0%,  #000 40%, #000 60%);
+  box-shadow: 0 0 9px #FFF;
+  border-radius: 50em;
+  background: #000;
+  z-index: 2;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight:;
+  font-size: 17px;
+   background-color:  #D1f5cc;
+  color: #FFF;
+    display: inline-block;
+  padding: 16px 20px;
+  border-radius: 50em;
+  position: relative;
+  z-index: 2;
+  will-change: transform, filter;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 1.3s ease-out;
+  transition: all 1.3s ease-out;
+
+  background: #c0ffa7;
+  background: linear-gradient(180deg, #FFF 0%,  #000 40%, #000 60%);
+     box-shadow: 0 0 9px #FFF;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:  #D1f5cc;
+  color: black;
+    display: inline-block;
+  padding: 16px 20px;
+  border-radius: 50em;
+  position: relative;
+  z-index: 4;
+  will-change: transform, filter;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 1.3s ease-out;
+  transition: all 1.3s ease-out;
+
+  background: #c0ffa7;
+  background: linear-gradient(180deg, #000 0%,  #D1f5cc 40%, #D1f5cc 60%);
+     box-shadow: 0 0 9px #D1f5cc;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+ 
+}
+#noLight a{
+	font-size: 24pt;
+}
+/*start of the carousel shit*/
+
+@keyframes tonext {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: 100%;
+  }
+  98% {
+    left: 100%;
+  }
+  99% {
+    left: 0;
+  }
+}
+
+@keyframes tostart {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: -300%;
+  }
+  98% {
+    left: -300%;
+  }
+  99% {
+    left: 0;
+  }
+}
+
+@keyframes snap {
+  96% {
+    scroll-snap-align: center;
+  }
+  97% {
+    scroll-snap-align: none;
+  }
+  99% {
+    scroll-snap-align: none;
+  }
+  100% {
+    scroll-snap-align: center;
+  }
+}
+
+/*carousel container div, important*/
+#carobody {
+  width: 45vw;
+  height: 45vh;
+ 	margin-top: -60vh;
+  margin-left: 2vw;
+  font-family: 'Lato', sans-serif;
+  display: inline-block;
+  float: left;
+  z-index: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  scrollbar-color: transparent transparent; /* thumb and track color */
+  scrollbar-width: 0px;
+}
+
+.allBody::-webkit-scrollbar {
+  width: 0;
+}
+
+.allBody::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.allBody::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+}
+
+.allBody{
+  -ms-overflow-style: none;
+}
+
+ol, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  position: relative;
+  padding-top: 75%;
+  filter: drop-shadow(0 0 10px #0003);
+  perspective: 100px;
+
+
+}
+
+.carousel__viewport {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  overflow-x: scroll;
+  overflow-x: hidden;
+  counter-reset: item;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+   
+  
+}
+
+.carousel__slide {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  background-color: #FFF;
+  color: #000;
+  counter-increment: item;
+}
+/*THIS is the background sauce for the carousel*/
+
+.carousel__slide:nth-child(1) {
+  background-image: url("../images/lettuceCard.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+.carousel__slide:nth-child(2) {
+  background-image: url("../images/poopyCard.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+
+}
+.carousel__slide:nth-child(3) {
+  background-image: url("../images/sunCard.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+.carousel__slide:nth-child(4) {
+  background-image: url("../images/crabCard.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+
+}.carousel__slide:nth-child(4) {
+  background-image: url("../images/throbCard.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+
+}
+.carousel__slide:nth-child(5) {
+  background-image: url("../images/throbCard.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+
+}
+/*Affects height of carousel content*/
+.carousel__slide:before {
+  content: ;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-40%,70px);
+  color: #000, #FFF;
+  font-size: 2em;
+}
+/*more incomprehensible code*/
+.carousel__snapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: center;
+}
+/*what in the fuck do these queries do*/
+
+@media (hover: hover) {
+  .carousel__snapper {
+    animation-name: tonext, snap;
+    animation-timing-function: ease;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  .carousel__slide:last-child .carousel__snapper {
+    animation-name: tostart, snap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel__snapper {
+    animation-name: none;
+  }
+}
+
+.carousel:hover .carousel__snapper,
+.carousel:focus-within .carousel__snapper {
+  animation-name: none;
+}
+/*carousel bottom nav*/
+
+.carousel__navigation {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+.carousel__navigation-list,
+.carousel__navigation-item {
+  display: inline-block;
+}
+
+.carousel__navigation-button {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #000;
+  background-clip: content-box;
+  border: 0.25rem solid #fff;
+  border-radius: 50%;
+  font-size: 0;
+  transition: transform 0.1s;
+}
+/* CRT stuff */
+/* screen door effect */
+.crt::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 1px 100%;
+  pointer-events: none;
+   width:      100%;
+  height:     100%; 
+  z-index:    10;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+
+}
+/*flicker*/
+@keyframes flicker {
+  0% {
+  opacity: 0.27861;
+  }
+  5% {
+  opacity: 0.34769;
+  }
+  10% {
+  opacity: 0.23604;
+  }
+  15% {
+  opacity: 0.90626;
+  }
+  20% {
+  opacity: 0.18128;
+  }
+  25% {
+  opacity: 0.83891;
+  }
+  30% {
+  opacity: 0.65583;
+  }
+  35% {
+  opacity: 0.67807;
+  }
+  40% {
+  opacity: 0.26559;
+  }
+  45% {
+  opacity: 0.84693;
+  }
+  50% {
+  opacity: 0.96019;
+  }
+  55% {
+  opacity: 0.08594;
+  }
+  60% {
+  opacity: 0.20313;
+  }
+  65% {
+  opacity: 0.71988;
+  }
+  70% {
+  opacity: 0.53455;
+  }
+  75% {
+  opacity: 0.37288;
+  }
+  80% {
+  opacity: 0.71428;
+  }
+  85% {
+  opacity: 0.70419;
+  }
+  90% {
+  opacity: 0.7003;
+  }
+  95% {
+  opacity: 0.36108;
+  }
+  100% {
+  opacity: 0.24387;
+  }
+}
+
+.crt::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(8, 6, 6, 0.1);
+  opacity: 0;
+  z-index: 2;
+  pointer-events: none;
+  animation: flicker 0.15s infinite;
+}
+/*color separation*/
+@keyframes textShadow {
+  0% {
+    text-shadow: 0.4389924193300864px 0 1px rgba(0,30,255,0.5), -0.4389924193300864px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  5% {
+    text-shadow: 2.7928974010788217px 0 1px rgba(0,30,255,0.5), -2.7928974010788217px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  10% {
+    text-shadow: 0.02956275843481219px 0 1px rgba(0,30,255,0.5), -0.02956275843481219px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  15% {
+    text-shadow: 0.40218538552878136px 0 1px rgba(0,30,255,0.5), -0.40218538552878136px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  20% {
+    text-shadow: 3.4794037899852017px 0 1px rgba(0,30,255,0.5), -3.4794037899852017px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  25% {
+    text-shadow: 1.6125630401149584px 0 1px rgba(0,30,255,0.5), -1.6125630401149584px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  30% {
+    text-shadow: 0.7015590085143956px 0 1px rgba(0,30,255,0.5), -0.7015590085143956px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  35% {
+    text-shadow: 3.896914047650351px 0 1px rgba(0,30,255,0.5), -3.896914047650351px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  40% {
+    text-shadow: 3.870905614848819px 0 1px rgba(0,30,255,0.5), -3.870905614848819px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  45% {
+    text-shadow: 2.231056963361899px 0 1px rgba(0,30,255,0.5), -2.231056963361899px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  50% {
+    text-shadow: 0.08084290417898504px 0 1px rgba(0,30,255,0.5), -0.08084290417898504px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  55% {
+    text-shadow: 2.3758461067427543px 0 1px rgba(0,30,255,0.5), -2.3758461067427543px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  60% {
+    text-shadow: 2.202193051050636px 0 1px rgba(0,30,255,0.5), -2.202193051050636px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  65% {
+    text-shadow: 2.8638780614874975px 0 1px rgba(0,30,255,0.5), -2.8638780614874975px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  70% {
+    text-shadow: 0.48874025155497314px 0 1px rgba(0,30,255,0.5), -0.48874025155497314px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  75% {
+    text-shadow: 1.8948491305757957px 0 1px rgba(0,30,255,0.5), -1.8948491305757957px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  80% {
+    text-shadow: 0.0833037308038857px 0 1px rgba(0,30,255,0.5), -0.0833037308038857px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  85% {
+    text-shadow: 0.09769827255241735px 0 1px rgba(0,30,255,0.5), -0.09769827255241735px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  90% {
+    text-shadow: 3.443339761481782px 0 1px rgba(0,30,255,0.5), -3.443339761481782px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  95% {
+    text-shadow: 2.1841838852799786px 0 1px rgba(0,30,255,0.5), -2.1841838852799786px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  100% {
+    text-shadow: 2.6208764473832513px 0 1px rgba(0,30,255,0.5), -2.6208764473832513px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+}
+.crt {
+  animation: textShadow 1.6s infinite;
+}
+/*carousel arrow buttons, need to comment out for now
+
+.carousel::before,
+.carousel::after,
+.carousel__prev,
+.carousel__next {
+  position: absolute;
+  top: 0;
+  margin-top: 37.5%;
+  width: 4rem;
+  height: 4rem;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  border: 1px solid #FFF;
+  font-size: 0;
+  outline: 0;
+}
+
+.carousel::before,
+.carousel__prev {
+  left: -3rem;
+}
+
+.carousel::after,
+.carousel__next {
+  right: -3rem;
+}
+
+.carousel::before,
+.carousel::after {
+  content: '';
+  z-index: 1;
+  background-color: #000;
+  background-size: .5rem .5rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  text-align: center;
+  pointer-events: none;
+}
+
+.carousel::before {
+  background-image: url("");
+}
+
+.carousel::after {
+  background-image: url("");
+}*/
